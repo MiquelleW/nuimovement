@@ -1,0 +1,450 @@
+/* General page styling*/
+
+body {
+  margin: 0;
+  font-family: Ariel, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+/*Navigation*/
+
+header {
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-name {
+  margin: 0;
+  color: white;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: red;
+}
+
+/*Main Content*/
+
+main {
+  max-width: 1100px;
+  margin: auto;
+  padding: 30px;
+}
+
+h1 {
+  color: black;
+  font-size: 36px;
+}
+
+h2 {
+  color: #cc0000;
+}
+
+h3 {
+  color: #0033cc;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/*Home page*/
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 0;
+}
+
+.logo {
+  width: 300px;
+  max-width: 100%;
+}
+
+.intro-text {
+  max-width: 500px;
+}
+
+.welcome {
+  text-align: center;
+  padding: 30px;
+}
+
+/*About page*/
+
+.about-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.list-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.list-box {
+  width: 400px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.list-box li {
+  margin-bottom: 10px;
+}
+
+.mission-section {
+  text-align: center;
+  margin-top: 40px;
+  padding: 25px;
+  background-color: #eeeeee;
+}
+
+/*Apparel page*/
+
+.apparel-intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.product-card {
+  width: 400px;
+  border: 2px solid black;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/*Media Services page*/
+.media-intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.capture-section {
+  background-color: #eeeeee;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.capture-section h2 {
+  text-align: center;
+}
+
+.capture-section p {
+  text-align: center;
+}
+
+.capture-list {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.capture-list ul {
+  width: 300px;
+}
+
+.capture-list li {
+  margin-bottom: 10px;
+}
+
+.services-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.package-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.package-card {
+  width: 280px;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.package-card h2 {
+  color: #cc0000;
+}
+
+.package-card h3 {
+  color: #0033cc;
+}
+
+.booking-section {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.booking-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.booking-box {
+  width: 280px;
+  padding: 20px;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.booking-box h3 {
+  color: #0033cc;
+}
+
+.add-ons-section {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 30px;
+  background-color: #eeeeee;
+  border-radius: 10px;
+}
+
+.add-ons-list {
+  display: flex;
+  justify-content: center;
+}
+
+.add-ons-list ul {
+  text-align: left;
+}
+
+.add-ons-list li {
+  margin-bottom: 10px;
+}
+
+.contact-section {
+  text-align: center;
+  margin-top: 40px;
+  padding: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.contact-section h2 {
+  color: red;
+}
+
+.contact-section h3 {
+  color: white;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 25px;
+}
+
+.contact-box {
+  width: 300px;
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.contact-box h3 {
+  color: #0033cc;
+}
+
+.portfolio-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.portfolio-container img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.top-photo {
+  object-position: top;
+}
+
+/*Image citations*/
+
+.citation {
+  font-size: 12px;
+  font-style: italic;
+  color: #555555;
+  text-align: center;
+}
+
+/*Footer*/
+
+footer {
+  background-color: white;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 0;
+}
+
+/*N.U.i. Interviews page*/
+.interviews-intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.interview-types {
+  background-color: #eeeeee;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.interview-types h2 {
+  text-align: center;
+}
+
+.interview-types p {
+  text-align: center;
+}
+
+.interview-list {
+  display: flex;
+  justify-content: center;
+}
+
+.interview-list li {
+  margin-bottom: 10px;
+}
+
+.past-interviews {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.interview-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.interview-card {
+  width: 280px;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.youtube-link {
+  margin-top: 30px;
+}
+
+.youtube-link a {
+  background-color: #cc0000;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.share-story {
+  background-color: #eeeeee;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.interview-packages {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.interview-package-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.interview-package-card {
+  width: 400px;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px;
+  text-align: center;
+}
+
+.interview-contact {
+  background-color: black;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.interview-contact h2 {
+  color: #cc0000;
+}
+
+.interview-contact h3 {
+  color: #0033cc;
+}
